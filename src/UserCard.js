@@ -2,7 +2,6 @@ import { retStr } from './App'
 import { MethodsBtns } from './MethodsBtns'
 
 export const UserCard = (props) => {
-	console.log(props)
 	return(
 		<div style={{paddingLeft: "2.5em", paddingRight: "2.5em", paddingBottom: "0.75em"}}>
 	      {retStr(props.name)}
